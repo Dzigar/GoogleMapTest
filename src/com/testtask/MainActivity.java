@@ -1,8 +1,5 @@
 package com.testtask;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -24,8 +21,6 @@ public class MainActivity extends Activity {
 			+ "&v=20130815&ll=49.13,28.28&query=" + CATEGORY;
 
 	public LatLng MY_TOWN = new LatLng(49.23259183832939, 28.46832275390625);
-
-	public static List<Place> places = new ArrayList<Place>();
 
 	private static MainActivity activity;
 	private GoogleMap map;
